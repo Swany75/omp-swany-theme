@@ -1,7 +1,7 @@
 # omp-swany-theme
 A custom prompt theme for Oh My Posh.
 
-![main.png](./Windows/main.png)<br>
+![image](https://github.com/user-attachments/assets/07467cfd-529d-4eeb-9677-82b7cd50ecf4)<br>
 Download [Windows Terminal](https://aka.ms/terminal) and [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip) if you haven't already.
 
 ## Set Up

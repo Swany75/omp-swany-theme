@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Swany75/omp-swany-theme/refs/heads/main/swany.yml
+
+transient_prompt:
+  template: "\uf054 "
+  foreground: "#48A23F"
+
+blocks:
+  - type: prompt
+    alignment: left
+    segments:
+      - template: " {{ .Icon }} "
+        foreground: "#16B290"
+        powerline_symbol: ""
+        background: "#263238"
+        type: os
+        style: powerline
+      - template: " {{ .UserName }} "
+        foreground: "#00FF00"
+        powerline_symbol: ""
+        background: "#1C262C"
+        type: session
+        style: powerline
+      - template: " \uf015 {{ .Path }} "
+        foreground: "#16B290"
+        powerline_symbol: " "
+        background: "#263238"
+        type: path
+        style: powerline
+    newline: true
+version: 3

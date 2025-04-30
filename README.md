@@ -17,10 +17,10 @@ winget install JanDeDobbeleer.OhMyPosh
 Clone the repository to get the configuration files:
 
 ```powershell
-git clone https://github.com/Swany75/WinTerminalCustomCfg.git
+git clone https://github.com/Swany75/omp-swany-theme.git
 ```
 
-After cloning, move the WinTerminalCustomCfg folder to the Oh My Posh themes folder. 
+After cloning, move the omp-swany-theme folder to the Oh My Posh themes folder. 
 
 ```powershell
 cp .\swany.yml "C:\Users\{{YourUsrName}}\AppData\Local\Programs\oh-my-posh\themes\swany.yml"
@@ -41,6 +41,7 @@ oh-my-posh init pwsh --config "C:\Users\{{YourUsrName}}\AppData\Local\Programs\o
 Modify the Windows Terminal profile configuration to load your theme.
 
 ## Resources
+> - [Oh My Posh Official Repo](https://github.com/JanDeDobbeleer/oh-my-posh)
 > - [Nerd Fonts Cheat Sheet](https://www.nerdfonts.com/cheat-sheet)
 > - [Oh My Posh Themes Documentation](https://ohmyposh.dev/docs/themes)
 > - [Customize & Beautify your Windows Terminal (2022 Edition)](https://dev.to/ansonh/customize-beautify-your-windows-terminal-2022-edition-541l)
